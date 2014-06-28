@@ -1,0 +1,49 @@
+﻿body {
+    background:url('pictures/background.png');
+    background-repeat: no-repeat ;
+    background-size:;
+}
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+a img{
+    display:inline-block;
+   float: left;
+    
+}
+
+    a img:hover {
+        border: 5px dotted blue;
+        border-radius:7px;
+    }
+header {
+    
+    font-family:"komikax", Calibri, 'Times New Roman';
+    display:inline-block;
+    color:#EE9228;
+    
+}
+
+h1 {
+    float:left;
+    display:inline-block;
+    font-size:200%;
+    text-shadow: 3px 0px 0px black;
+    margin-left: 30px;
+    
+}
+
+@font-face {
+    font-family:"komikax";
+    src:url('font/KOMIKAX_.ttf') format('truetype');
+}
+
+@media screen and (max-width:320px) {
+    h1{
+        margin-left: 10px;
+    }
+}
