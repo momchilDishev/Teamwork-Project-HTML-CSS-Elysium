@@ -1,0 +1,74 @@
+﻿
+#wrapper{
+    min-height:100%;
+	position:relative;
+}
+header {
+
+}
+#main{
+    margin:5px;
+    padding:10px;
+	padding-bottom:80px;
+}
+
+h2 {
+    margin-left: 10%;
+    color: #5dd81c;
+    background-color: none;
+    text-shadow: 10px 10px 5px #808080;
+}
+
+#profiles {
+    
+    font-size:20px;
+}
+
+#ivelin {
+    content:url(pictures/ivelin.png);
+}
+
+#momchil {
+    content:url(pictures/momchil.png);
+}
+
+
+#georgi{
+    content:url(pictures/georgi.jpg);
+}
+
+#petar{
+    content:url(pictures/petar.jpg);
+}
+
+#apostol {
+    content:url(pictures/apostol.jpg);
+}
+
+figure{
+    width:70%;
+    height:auto;
+}
+
+figcaption {
+    font-size:0.7em;
+    margin: 5% auto;
+    width: 30%;
+}
+
+#profiles div {
+        background-color:white;
+        display:inline-block;
+        text-align: center;
+        width:10%;
+        height:auto;
+        border:1px solid green;
+        float: left;
+        padding:1%;
+        margin: 1%;
+    
+    
+        
+}
+
+
