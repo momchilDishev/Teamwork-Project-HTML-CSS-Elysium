@@ -1,25 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>  Jokes  </title>
+    <title>  Terminal  </title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <body id="jbody">
-    <h1 id="name">olds<span id="cool">COOL</span> console</h1>
+    <h1 id="name">olds<span id="cool">COOL</span> terminal</h1>
     <div id="cont">
         <p  id="joke">No idea what to do here? Type "help". <br />.............................................................................<br />The console awaits your input...</p>
         <input id="line" type="text" name="input" autofocus="autofocus" value=">:" onfocus="this.value = this.value;" />
         <div id="buttonE" onclick="changeQuote()" />
     </div>
-
     <script>
         var quotes = [
             "Why do programmers always mix up Halloween and Christmas? Because Oct 31 equals Dec 25.",
+
             "There are only 10 kinds of people in this world: those who know binary and those who don’t.",
+
             "Programming is like sex: One mistake and you have to support it for the rest of your life.",
+
             "The generation of random numbers is too important to be left to chance.",
+
             "Debugging: Removing the needles from the haystack.",
-            "A computer science student is studying under a tree and another pulls up on a flashy new bike. The first student asks,<br> “Where’d you get that?”<br>The student on the bike replies,<br> “While I was studying outside, a beautiful girl pulled up on her bike.  She took off all her clothes and said, ‘You can have anything you want’.” <br>The first student responds,<br> “Good choice!  Her clothes probably wouldn’t have fit you.”"
+
+            "A SoftUni student is studying under a tree and another pulls up on a flashy new bike. The first student asks,<br>" +
+            " “Where’d you get that?”<br>The student on the bike replies,<br> “While I was studying outside, a beautiful girl pulled up on her bike." +
+            "  She took off all her clothes and said, ‘You can have anything you want’.” <br>The first student responds,<br> “Good choice!  Her clothes probably wouldn’t have fit you.”",
+
+            "“Knock, knock.”<br> “Who’s there?”<br> (Very long pause….) <br>“Java.”",
+
+            "Q: How do you tell an introverted computer scientist from an extroverted computer scientist?<BR>"+
+            "A: An extroverted computer scientist looks at YOUR shoes when he talks to you.",
+
+            "Saying that Java is nice because it works on every OS is like saying that anal sex is nice because it works on every gender.",
+
+            "If Internet Explorer is brave enough to ask you to be your default browser you're brave enough to ask that girl out.",
+
+            "Q: Whats the object-oriented way to become wealthy? <br>A: Inheritance.",
+
+            "To understand what recursion is, you must first understand recursion.",
+
+            "A group of ten top software engineers is sent to a class for aspiring managers. The teacher walks in and asks this question:<br>"+
+            "You work for a software company which develops avionics (software that controls the instruments of an airplane). "+
+            "One day you are taking a business trip. As you get on the plane you see a plaque that says this plane is using a beta of the software your team developed. Who would get off?<br>"+
+            "Nine developers raised their hands. The teacher looked at the tenth and asked,<br>"+"Why would you stay on?"+
+            "The tenth said,<br>" + "If my team wrote the software, the plane would not get off the ground, much less crash.",
+
+            "Programmer trying to fall asleep: <br> while(!asleep()) sheep++",
+
+
         ];
 
         function changeQuote() {
