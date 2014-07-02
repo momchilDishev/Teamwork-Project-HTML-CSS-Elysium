@@ -6,7 +6,7 @@
 }
 
 #soft-uni, #elysium {
-    width:590px;
+    width:46%;
     height:530px;
     margin:10px 20px;
     padding:20px;
@@ -26,14 +26,19 @@ h2 {
     border-radius:5px;
     padding:10px;
     margin:10px;
+    font-size:130%;
 }
 
 
 
-@media scree and (max-width:1285px){
-    
-    articles {
-        width:850px;
-        height:auto;
+@media scree and (max-width:1200px){
+
+    #soft-uni, #elysium {
+        width: 100%;
+        height: auto;
+        display:block;
+        margin:10px;
+        
     }
+    
 }

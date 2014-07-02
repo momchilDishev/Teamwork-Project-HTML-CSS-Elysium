@@ -14,7 +14,7 @@ header {
 
 h2 {
     margin-left: 10%;
-    color: #5dd81c;
+    color: #ff6a00;
     background-color: none;
     text-shadow: 10px 10px 5px #808080;
 }
@@ -30,7 +30,8 @@ figure{
 }
 
 figcaption {
-    font-size:0.5em;
+    font-size:50%;
+    padding:2%;
 }
 
 
@@ -62,7 +63,7 @@ figcaption {
         background-color:white;
         display:inline-block;
         text-align: center;
-        width:10%;
+        width:18%;
         height:auto;
         border:3px solid green;
         float: left;
