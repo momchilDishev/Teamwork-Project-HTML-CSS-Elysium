@@ -1,0 +1,60 @@
+body{ 
+}
+#wrap{
+    margin:auto;
+    margin-top:-10px;
+    width: 960px; 
+    height: 500px; 
+    position:relative;
+    background-image:url(pictures/pills.jpg);
+    background-size:960px;
+    border:1px solid;
+}
+#red, #blue{
+    width:45%;
+    height:60%;
+    padding:20px;
+}
+#red{
+    float:left;
+}
+#blue{
+    float:right;
+}
+#pills{
+    height:500px;
+}
+#wrap p{   
+    font-family:Consolas;
+    font-size:20px;
+    font-weight:bolder;
+    color:#37be09;
+    width:400px;
+}
+#wrap>p{
+    margin-left:350px;
+}
+#blue>p{
+    margin-top:350px;
+}
+#red>p{
+    margin-top:330px;
+}
+#red:hover{
+    background-color:#5c1515;
+    opacity:0.4;
+}
+#blue:hover{
+    background-color:#00419b;
+    opacity:0.4;
+}
+
+
+main{
+    height:300px;
+    width:300px;
+}
+#wraper{
+   height:300px;
+    width:300px;
+}
