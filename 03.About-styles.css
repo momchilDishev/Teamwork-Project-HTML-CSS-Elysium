@@ -1,8 +1,5 @@
 ﻿
-#wrapper{
-    min-height:100%;
-	position:relative;
-}
+
 header {
 
 }
@@ -10,6 +7,8 @@ header {
     margin:5px;
     padding:10px;
 	padding-bottom:80px;
+    width:90%;
+    display:block;
 }
 
 h2 {
@@ -20,9 +19,10 @@ h2 {
 }
 
 #profiles {
-    
+    width:100%;
     font-size:20px;
 }
+
 
 #ivelin {
     content:url(pictures/ivelin.png);
@@ -62,7 +62,7 @@ figcaption {
         text-align: center;
         width:10%;
         height:auto;
-        border:1px solid green;
+        border:3px solid green;
         float: left;
         padding:1%;
         margin: 1%;

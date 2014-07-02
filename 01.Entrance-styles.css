@@ -9,19 +9,6 @@
     box-sizing: border-box;
 }
 
-
-header:hover {
-    border: 10px dotted;
-    border-color:rgba(238, 146, 40, 0.5);
-    border-radius: 15px;
-    padding: 20px;
-    -webkit-transition-duration:1s;
-    background-color:plum;
-    
-    
-    
-}
-
 header {
     font-family: "komikax", Calibri, 'Times New Roman';
     display: inline-block;
@@ -29,10 +16,23 @@ header {
     text-align:center;
     border: 10px dotted #ffd800;
     border-radius: 15px;
+    padding:10px;
+    background-color:#8aa7e2;
 }
 
+header:hover {
+    border: 15px dotted ;
+    border-color:rgb(255, 217, 0);
+    border-radius: 15px;
+    padding: 25px;
+    -webkit-transition-duration:1s;
+    background-color:#ce35d9;
+    color:rgb(237, 245, 12);
+}
+
+
+
 h1 {
-    
     display: inline-block;
     font-size: 200%;
     text-shadow: 3px 0px 0px black;
@@ -40,7 +40,7 @@ h1 {
 
 a {
     text-decoration-color:none;
-    color: #EE9228;
+    color: #ffd900;
     
 
 }
@@ -53,5 +53,6 @@ a {
 @media screen and (max-width:320px) {
     h1 {
         margin-left: 10px;
+        font-size: 1em;
     }
 }
