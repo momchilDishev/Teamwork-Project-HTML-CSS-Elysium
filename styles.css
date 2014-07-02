@@ -58,8 +58,19 @@ main{
 
 /*---JOKES---*/
 
-#jokes>li{
-    display:none;
+@font-face {
+    font-family: CoolFont;
+    src: url(pictures/cfont.ttf);
+}
+#name{
+    width:100%;
+    text-align:center;
+    font-family:CoolFont;
+    font-size:40px;
+    color:#7e8083;
+}
+#cool{
+    color:#37be09;
 }
 #cont{
     position:relative;

@@ -5,9 +5,10 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <body id="jbody">
+    <h1 id="name">olds<span id="cool">COOL</span> console</h1>
     <div id="cont">
-        <p  id="joke">No idea what to do here? Type "help". <br />.................................................................................<br />The console awaits your input...</p>
-        <input id="line" type="text" name="input" autofocus="autofocus" />
+        <p  id="joke">No idea what to do here? Type "help". <br />.............................................................................<br />The console awaits your input...</p>
+        <input id="line" type="text" name="input" autofocus="autofocus" value=">:" onfocus="this.value = this.value;" />
         <div id="buttonE" onclick="changeQuote()" />
     </div>
 
@@ -24,27 +25,27 @@
         function changeQuote() {
             var input = document.getElementById("line").value;
             index = Math.floor(Math.random() * quotes.length);
-            if (input == "joke") {
+            if (input == ">:joke") {
                     document.getElementById("joke").innerHTML = quotes[index];
                 }
-            if (input == "help") {
+            if (input == ">:help") {
                 document.getElementById("joke").innerHTML = "The console will display a joke if you type the keyword \"joke\". <br>.................................................................................<br> The console will tell you who is the author if you type the keyword \"who\".<br>.................................................................................<br>"
                 + "The console will display the date and time if you type the keyword \"date\".<br>.................................................................................<br>" + "If this console thing is too complicated for you type the keyword \"uni\" to find out where to learn this $#%&.<br>.................................................................................";
             }
-            if (input == "who") {
+            if (input == ">:who") {
                 document.getElementById("joke").innerHTML = "Team Elysium of course ;)";
             }
-            if (input == "date") {
+            if (input == ">:date") {
                 document.getElementById("joke").innerHTML = Date();
             }
-            if (input == "uni") {
-                document.getElementById("joke").innerHTML = "<a href=\"https://softuni.bg/\"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>/*---SoftUni---*/</a>"
+            if (input == ">:uni") {
+                document.getElementById("joke").innerHTML = "<a href=\"https://softuni.bg/\"><br><br><br><br><br><br><br><br><br><br><br><br><br>/*---------------------------------SoftUni---------------------------------*/</a>"
             }
-            if (input == "haha") {
+            if (input == ">:haha") {
                 document.getElementById("joke").innerHTML = "HAhaha HAHA hahha HAHAHhahah hHA AHahHAAH AAhAhahHAHah... <br><br><br> Don't laugh."
             }
             document.getElementById("line").focus();
-            document.getElementById("line").value = "";
+            document.getElementById("line").value = ">:";
         }
 
     </script>
