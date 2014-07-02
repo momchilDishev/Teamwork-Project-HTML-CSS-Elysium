@@ -19,7 +19,7 @@
 h4 {
     width:auto;
     text-align:center;
-    background-color:#FFD900;
+    background-color:rgba(255, 216, 0, 0.7);
     color:black;
     font-size:30px;
     border:2px solid black;
@@ -29,6 +29,8 @@ h4 {
    
 }
 
-articles {
-    
+@media scree and (max-width:1024px){
+    articles {
+        width:100%;
+    } 
 }
