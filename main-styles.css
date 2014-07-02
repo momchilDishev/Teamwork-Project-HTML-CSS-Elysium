@@ -12,14 +12,19 @@ body {
 }
 
 header {
-    margin-left: 10%;
+    margin:5% 10%;
     display: inline-block;
 }
 
 
 h1 {
-    background-color: none;
+    background-color: rgba(255, 255, 255, 0.7);
     text-shadow: 10px 10px 5px #808080;
+    padding:10px;
+    border:1px solid green;
+    border-radius:10px;
+    width:auto;
+    text-align:center;
 }
 
 
@@ -87,13 +92,15 @@ footer {
 @media screen and (max-width:1024px){
     body {
         font-size:100%;
-    } 
+    }
+    
 }
 
 @media screen and (max-width:320px) {
     body {
         font-size: 50%;
     }
+    
 }
 
 img {
