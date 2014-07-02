@@ -1,3 +1,25 @@
-﻿ 
+﻿#main {
+    margin:30px;
+    width:800px;
+    padding:20px;
+    
+    
+}
+article {
+    text-align:center;
+    background-color:rgba(255, 255, 255, 0.7);
+    border:1px solid green;
+    border-radius:5px;
 
 
+}
+
+span {
+    color:red;
+
+}
+    span a:hover {
+        -webkit-transition-duration:0.5s;
+        color:#8922ac;
+       
+    }

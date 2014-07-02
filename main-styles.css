@@ -51,6 +51,7 @@ section nav ul li {
         
     }
 
+
 @font-face {
     font-family: "komikax";
     src: url('font/KOMIKAX_.ttf') format('truetype');
@@ -64,6 +65,7 @@ a {
     a:visited {
         background-color: purple;
     }
+
 
 
 footer {

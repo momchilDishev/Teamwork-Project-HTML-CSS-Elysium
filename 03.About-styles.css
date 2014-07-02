@@ -9,6 +9,7 @@ header {
 	padding-bottom:80px;
     width:90%;
     display:block;
+    height:auto;
 }
 
 h2 {
@@ -20,7 +21,16 @@ h2 {
 
 #profiles {
     width:100%;
-    font-size:20px;
+    
+}
+
+figure{
+    width:70%;
+    height:auto;
+}
+
+figcaption {
+    font-size:0.5em;
 }
 
 
@@ -45,16 +55,8 @@ h2 {
     content:url(pictures/apostol.jpg);
 }
 
-figure{
-    width:70%;
-    height:auto;
-}
 
-figcaption {
-    font-size:0.7em;
-    margin: 5% auto;
-    width: 30%;
-}
+
 
 #profiles div {
         background-color:white;
