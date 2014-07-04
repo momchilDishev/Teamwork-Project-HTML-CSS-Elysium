@@ -7,8 +7,9 @@
 <body id="jbody">
     <h1 id="name">olds<span id="cool">COOL</span> terminal</h1>
     <div id="cont">
-        <p  id="joke">No idea what to do here? Type "help". <br />.............................................................................<br />The console awaits your input...</p>
-        <input id="line" type="text" name="input" autofocus="autofocus" value=">:" onfocus="this.value = this.value;" />
+        <p id="joke">No idea what to do here? Type "help". <br />.............................................................................<br />The console awaits your input...</p>
+        <input id="line" name="in" type="text" autofocus  />
+        <label for="in">>:</label>
         <div id="buttonE" onclick="changeQuote()" />
     </div>
     <script>
@@ -29,7 +30,7 @@
 
             "“Knock, knock.”<br> “Who’s there?”<br> (Very long pause….) <br>“Java.”",
 
-            "Q: How do you tell an introverted computer scientist from an extroverted computer scientist?<BR>"+
+            "Q: How do you tell an introverted computer scientist from an extroverted computer scientist?<BR>" +
             "A: An extroverted computer scientist looks at YOUR shoes when he talks to you.",
 
             "Saying that Java is nice because it works on every OS is like saying that anal sex is nice because it works on every gender.",
@@ -40,10 +41,10 @@
 
             "To understand what recursion is, you must first understand recursion.",
 
-            "A group of ten top software engineers is sent to a class for aspiring managers. The teacher walks in and asks this question:<br>"+
-            "You work for a software company which develops avionics (software that controls the instruments of an airplane). "+
-            "One day you are taking a business trip. As you get on the plane you see a plaque that says this plane is using a beta of the software your team developed. Who would get off?<br>"+
-            "Nine developers raised their hands. The teacher looked at the tenth and asked,<br>"+"Why would you stay on?"+
+            "A group of ten top software engineers is sent to a class for aspiring managers. The teacher walks in and asks this question:<br>" +
+            "You work for a software company which develops avionics (software that controls the instruments of an airplane). " +
+            "One day you are taking a business trip. As you get on the plane you see a plaque that says this plane is using a beta of the software your team developed. Who would get off?<br>" +
+            "Nine developers raised their hands. The teacher looked at the tenth and asked,<br>" + "Why would you stay on?" +
             "The tenth said,<br>" + "If my team wrote the software, the plane would not get off the ground, much less crash.",
 
             "Programmer trying to fall asleep: <br> while(!asleep()) sheep++",
@@ -54,29 +55,29 @@
         function changeQuote() {
             var input = document.getElementById("line").value;
             index = Math.floor(Math.random() * quotes.length);
-            if (input == ">:joke") {
-                    document.getElementById("joke").innerHTML = quotes[index];
-                }
-            if (input == ">:help") {
+            if (input == "joke") {
+                document.getElementById("joke").innerHTML = quotes[index];
+            }
+            if (input == "help") {
                 document.getElementById("joke").innerHTML = "The console will display a joke if you type the keyword \"joke\". <br>.................................................................................<br> The console will tell you who is the author if you type the keyword \"who\".<br>.................................................................................<br>"
                 + "The console will display the date and time if you type the keyword \"date\".<br>.................................................................................<br>" + "If this console thing is too complicated for you type the keyword \"uni\" to find out where to learn this $#%&.<br>.................................................................................";
             }
-            if (input == ">:who") {
+            if (input == "who") {
                 document.getElementById("joke").innerHTML = "Team Elysium of course ;)";
             }
-            if (input == ">:date") {
+            if (input == "date") {
                 document.getElementById("joke").innerHTML = Date();
             }
-            if (input == ">:uni") {
+            if (input == "uni") {
                 document.getElementById("joke").innerHTML = "<a href=\"https://softuni.bg/\"><br><br><br><br><br><br><br><br><br><br><br><br><br>/*---------------------------------SoftUni---------------------------------*/</a>"
             }
-            if (input == ">:haha") {
+            if (input == "haha") {
                 document.getElementById("joke").innerHTML = "HAhaha HAHA hahha HAHAHhahah hHA AHahHAAH AAhAhahHAHah... <br><br><br> Don't laugh."
             }
             document.getElementById("line").focus();
-            document.getElementById("line").value = ">:";
+            document.getElementById("line").value = "";
         }
-
     </script>
 </body>
+
 </html>

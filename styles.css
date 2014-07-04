@@ -86,15 +86,12 @@ main{
     border-color:#7e8083;
     border-radius:29px;
 }
-#jbody{
+body{
     height:100%;
-    background-image:url(pictures/cb.jpg);
-    /*background: -webkit-linear-gradient(black, green, black); /* For Safari 5.1 to 6.0 */
-    /*background: -o-linear-gradient(black, green, black); /* For Opera 11.1 to 12.0 */
-    /*background: -moz-linear-gradient(black, green, black); /* For Firefox 3.6 to 15 */
-    /*background: linear-gradient(black, rgreen, black); /* Standard syntax (must be last) */
-    /*background: -ms-linear-gradient(black, rgreen, black); <-------*/
+    background: url(http://media3.giphy.com/media/fJ1eCBjmMoEvu/giphy.gif); 
+    background-size: 500px 500px;
 }
+
 #buttonE{
     margin-left:1110px;
     margin-top:499px;
@@ -118,17 +115,24 @@ main{
     margin-left:110px; 
     width:860px;
 }
+#cont>label{
+    position:absolute;
+    color:#37be09;
+    font-family:Consolas;
+    font-size:20px;
+    margin-top:580px;
+    margin-left:110px;
+}
 #line{
     background: transparent;
     position:absolute;
-
     border: none;
     color:#37be09;
     font-family:Consolas;
     font-size:20px;
     width:860px;
     margin-top:580px;
-    margin-left:120px;
+    margin-left:133px;
 }
 input:focus{
     outline: 0;
