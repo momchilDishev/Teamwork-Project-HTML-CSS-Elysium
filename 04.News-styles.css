@@ -10,24 +10,10 @@
 figure {
     margin:auto;
 }
-#fart {
-    content: url(pictures/revenge.jpg);
-}
 
-#fart:hover {
+.fart:hover {
         content: url(pictures/revenge-drawn.jpg);
     }
-
-#entrance {
-    content: url(pictures/entrance.png);
-}
-#teo {
-    content:url(pictures/easy-teo.png);
-}
-
-#nakov {
-    content:url(pictures/not-valid.png);
-}
 
 figcaption {
     background-color:rgba(255, 216, 0, 0.7);
