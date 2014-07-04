@@ -8,7 +8,7 @@
 #soft-uni, #elysium {
     width:46%;
     height:530px;
-    margin:10px 20px;
+    margin: 2%;
     padding:20px;
     display: inline-block;
     float: left;
@@ -34,10 +34,10 @@ h2 {
 @media screen and (max-width:1200px){
 
     #soft-uni, #elysium {
-        width: 100%;
+        width: 98%;
         height: auto;
         display:block;
-        margin:10px;
+        font-size:70%;
         
     }
     

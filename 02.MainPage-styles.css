@@ -35,6 +35,8 @@ span {
 @media screen and (max-width:820px) {
     article {
         padding: 10%;
+        padding: 5%;
+        font-size: 82%;
     }
 
     header {
