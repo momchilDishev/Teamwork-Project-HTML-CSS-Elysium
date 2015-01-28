@@ -12,25 +12,23 @@
 header {
     font-family: "komikax", Calibri, 'Times New Roman';
     display: inline-block;
-    width:100%;
-    text-align:center;
+    width: 100%;
+    text-align: center;
     border: 10px dotted #ffd800;
     border-radius: 15px;
-    padding:10px;
-    background-color:#8aa7e2;
+    padding: 10px;
+    background-color: #8aa7e2;
 }
 
 header:hover {
-    border: 15px dotted ;
-    border-color:rgb(255, 217, 0);
+    border: 15px dotted;
+    border-color: rgb(255, 217, 0);
     border-radius: 15px;
     padding: 25px;
-    -webkit-transition-duration:1s;
-    background-color:#ce35d9;
-    color:rgb(237, 245, 12);
+    -webkit-transition-duration: 1s;
+    background-color: #ce35d9;
+    color: rgb(237, 245, 12);
 }
-
-
 
 h1 {
     display: inline-block;
@@ -39,9 +37,8 @@ h1 {
 }
 
 a {
-    text-decoration:none;
+    text-decoration: none;
     color: #ffd900;
-    
 
 }
 
@@ -50,7 +47,7 @@ a {
     src: url('font/KOMIKAX_.ttf') format('truetype');
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width: 320px) {
     h1 {
         margin-left: 10px;
         font-size: 1em;

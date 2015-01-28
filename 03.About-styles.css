@@ -1,21 +1,9 @@
-﻿
-
-header {
-}
-
-.main {
+﻿.main {
     margin: auto;
-    padding: 10px;
-    padding-bottom: 80px;
+    padding: 10px 10px 10px 80px;
     width: 90%;
     display: block;
     height: auto;
-}
-
-h2 {
-    margin-left: 10%;
-    color: black;
-    text-shadow: 5px 3px 4px #ff6a00;
 }
 
 #profiles {
@@ -32,15 +20,13 @@ figcaption {
     padding: 2%;
 }
 
-
 #ivelin {
     content: url(pictures/ivelin.png);
 }
 
 #momchil {
-    content: url(pictures/momchil.png);
+    content: url(pictures/momchil.PNG);
 }
-
 
 #georgi {
     content: url(pictures/georgi.jpg);
@@ -53,9 +39,6 @@ figcaption {
 #apostol {
     content: url(pictures/apostol.jpg);
 }
-
-
-
 
 #profiles div {
     background-color: white;
