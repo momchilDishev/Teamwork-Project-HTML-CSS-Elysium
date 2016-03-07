@@ -152,7 +152,7 @@ span {
     h1 {
         font-size: 80%;
     }
-
+}
     @media screen and (max-width: 640px) {
         article {
             padding: 10%;
@@ -170,7 +170,7 @@ span {
         footer {
         }
     }
-}
+
 
 @media screen and (max-width: 480px) {
 
